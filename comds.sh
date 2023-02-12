@@ -12,3 +12,7 @@ wget https://get.jenkins.io/war-stable/2.346.3/jenkins.war
 cd ../bin
 chmod -R 777 *
 ./startup.sh
+cd /
+cd /mnt/tool
+wget https://dlcdn.apache.org/maven/maven-3/3.9.0/binaries/apache-maven-3.9.0-bin.zip
+unzip apache-maven-3.9.0-bin.zip
